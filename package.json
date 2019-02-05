@@ -23,10 +23,9 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "lint": "eslint . --ext .js"
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "repository": {
     "type": "git",
@@ -37,6 +36,7 @@
   },
   "devDependencies": {
     "eslint": "^5.13.0",
-    "eslint-config-gatsby-standard": "^2.1.1"
+    "eslint-config-gatsby-standard": "^2.1.1",
+    "gatsby-plugin-eslint": "^2.0.4"
   }
 }
