@@ -10,6 +10,8 @@ Kick off your project with this default boilerplate. This starter ships with the
 
 ## 🚀 Quick start
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dfds-frontend/gatsby-dfds-starter.svg)](https://greenkeeper.io/)
+
 1.  **Create a DFDS Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the default starter.
