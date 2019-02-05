@@ -3,6 +3,24 @@
   "description": "A simple starter to get up and developing quickly with Gatsby at DFDS A/S",
   "version": "0.1.0",
   "author": "Konstantin Dichev <kodic@dfds.com>",
+  "license": "MIT",
+  "keywords": [
+    "gatsby"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfds-frontend/gatsby-dfds-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/dfds-frontend/gatsby-dfds-starter/issues"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "lint": "eslint . --ext .js"
+  },
   "dependencies": {
     "gatsby": "^2.0.112",
     "gatsby-image": "^2.0.29",
@@ -16,24 +34,6 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "lint": "eslint . --ext .js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
