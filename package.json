@@ -38,6 +38,7 @@
   "devDependencies": {
     "eslint": "5.13.0",
     "eslint-config-gatsby-standard": "2.1.1",
+    "eslint-plugin-react-hooks": "^0.0.0",
     "gatsby-plugin-eslint": "2.0.4"
   }
 }
