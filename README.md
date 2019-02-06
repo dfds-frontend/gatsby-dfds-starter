@@ -18,7 +18,9 @@ Kick off your project with this default boilerplate. This starter ships with the
 
     ```sh
     # create a new Gatsby site using the default starter
-    yarn gatsby new my-project-name
+    yarn global add gatsby-cli
+
+    gatsby new my-project-name https://github.com/dfds-frontend/gatsby-dfds-starter
     ```
 
 2.  **Start developing.**
