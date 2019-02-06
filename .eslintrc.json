@@ -1,8 +1,10 @@
 {
   "extends": "gatsby-standard",
+  "plugins": ["react-hooks"],
   "rules": {
     "no-unused-vars": ["error", { "args": "all" }],
     "prefer-destructuring": ["error", { "array": false, "object": true }],
-    "standard/no-callback-literal": 0
+    "standard/no-callback-literal": 0,
+    "react-hooks/rules-of-hooks": "error"
   }
 }

@@ -22,22 +22,23 @@
     "lint": "eslint . --ext .js"
   },
   "dependencies": {
-    "gatsby": "^2.0.112",
-    "gatsby-image": "^2.0.29",
-    "gatsby-plugin-manifest": "^2.0.17",
-    "gatsby-plugin-offline": "^2.0.22",
-    "gatsby-plugin-react-helmet": "^3.0.6",
-    "gatsby-plugin-sharp": "^2.0.20",
-    "gatsby-source-filesystem": "^2.0.20",
-    "gatsby-transformer-sharp": "^2.1.13",
-    "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-helmet": "^5.2.0"
+    "gatsby": "2.0.112",
+    "gatsby-image": "2.0.29",
+    "gatsby-plugin-manifest": "2.0.17",
+    "gatsby-plugin-offline": "2.0.22",
+    "gatsby-plugin-react-helmet": "3.0.6",
+    "gatsby-plugin-sharp": "2.0.20",
+    "gatsby-source-filesystem": "2.0.20",
+    "gatsby-transformer-sharp": "2.1.13",
+    "prop-types": "15.6.2",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-helmet": "5.2.0"
   },
   "devDependencies": {
-    "eslint": "^5.13.0",
-    "eslint-config-gatsby-standard": "^2.1.1",
-    "gatsby-plugin-eslint": "^2.0.4"
+    "eslint": "5.13.0",
+    "eslint-config-gatsby-standard": "2.1.1",
+    "eslint-plugin-react-hooks": "^0.0.0",
+    "gatsby-plugin-eslint": "2.0.4"
   }
 }
