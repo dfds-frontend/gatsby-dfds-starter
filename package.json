@@ -40,7 +40,7 @@
     "babel-preset-gatsby": "0.1.7",
     "eslint": "5.13.0",
     "eslint-config-gatsby-standard": "2.1.1",
-    "eslint-plugin-react-hooks": "1.0.0",
+    "eslint-plugin-react-hooks": "1.0.1",
     "gatsby-plugin-eslint": "2.0.4",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.1.0",
