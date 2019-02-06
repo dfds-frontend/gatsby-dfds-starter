@@ -6,5 +6,8 @@
     "prefer-destructuring": ["error", { "array": false, "object": true }],
     "standard/no-callback-literal": 0,
     "react-hooks/rules-of-hooks": "error"
+  },
+  "env": {
+    "jest": true
   }
 }

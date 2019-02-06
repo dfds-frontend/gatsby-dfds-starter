@@ -18,7 +18,7 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "test": "jest",
     "lint": "eslint . --ext .js"
   },
   "dependencies": {
@@ -36,9 +36,14 @@
     "react-helmet": "5.2.0"
   },
   "devDependencies": {
+    "babel-jest": "^24.1.0",
+    "babel-preset-gatsby": "^0.1.6",
     "eslint": "5.13.0",
     "eslint-config-gatsby-standard": "2.1.1",
     "eslint-plugin-react-hooks": "^0.0.0",
-    "gatsby-plugin-eslint": "2.0.4"
+    "gatsby-plugin-eslint": "2.0.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.1.0",
+    "react-test-renderer": "^16.8.0"
   }
 }
