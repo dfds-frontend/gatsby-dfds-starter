@@ -5,6 +5,18 @@ import SEO from '../components/seo'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 
+const clientSideQuery = gql`
+  {
+    urlSlugCollection(locale: "it-IT", where: { slug_exists: true }) {
+      items {
+        sys {
+          id
+        }
+      }
+    }
+  }
+`
+
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
@@ -12,19 +24,7 @@ const SecondPage = () => (
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
     <br />
-    <Query
-      query={gql`
-        {
-          urlSlugCollection(locale: "it-IT", where: { slug_exists: true }) {
-            items {
-              sys {
-                id
-              }
-            }
-          }
-        }
-      `}
-    >
+    <Query query={clientSideQuery}>
       {({ data, loading, error }) => {
         if (loading) return <p>Loading pupper...</p>
         if (error) return <p>Error: ${error.message}</p>
