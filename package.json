@@ -22,6 +22,7 @@
     "lint": "eslint . --ext .js"
   },
   "dependencies": {
+    "apollo-boost": "0.1.27",
     "gatsby": "2.0.112",
     "gatsby-image": "2.0.29",
     "gatsby-plugin-manifest": "2.0.17",
@@ -30,8 +31,10 @@
     "gatsby-plugin-sharp": "2.0.20",
     "gatsby-source-filesystem": "2.0.20",
     "gatsby-transformer-sharp": "2.1.13",
+    "isomorphic-fetch": "2.2.1",
     "prop-types": "15.6.2",
     "react": "16.8.0",
+    "react-apollo": "2.4.1",
     "react-dom": "16.8.0",
     "react-helmet": "5.2.0"
   },
