@@ -1,18 +1,18 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+// require('dotenv').config({
+//   path: `.env.${process.env.NODE_ENV}`,
+// })
 
-const {
-  CONTENTFUL_ACCESS_TOKEN,
-  CONTENTFUL_SPACE,
-  CONTENTFUL_ENV,
-} = process.env
+// const {
+//   CONTENTFUL_ACCESS_TOKEN,
+//   CONTENTFUL_SPACE,
+//   CONTENTFUL_ENV,
+// } = process.env
 
-if (!CONTENTFUL_SPACE || !CONTENTFUL_ACCESS_TOKEN || !CONTENTFUL_ENV) {
-  throw new Error(
-    'Contentful spaceId, env and the delivery token need to be provided.'
-  )
-}
+// if (!CONTENTFUL_SPACE || !CONTENTFUL_ACCESS_TOKEN || !CONTENTFUL_ENV) {
+//   throw new Error(
+//     'Contentful spaceId, env and the delivery token need to be provided.'
+//   )
+// }
 
 module.exports = {
   siteMetadata: {
