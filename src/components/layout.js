@@ -1,9 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
 
-import Header from "./header"
-import "./layout.css"
+import Header from './header'
+import './layout.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -31,7 +31,21 @@ const Layout = ({ children }) => (
           <footer>
             © {new Date().getFullYear()}, Built with
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a
+              href="https://www.gatsbyjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Gatsby
+            </a>
+            {' at '}
+            <a
+              href="https://www.dfds.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DFDS
+            </a>
           </footer>
         </div>
       </>

@@ -22,24 +22,42 @@ const Test = () => (
   <Query query={clientSideQuery}>
     {({ data, loading, error }) => {
       if (loading)
-        return Array(10)
-          .fill('')
-          .map((e, i) => {
-            console.log(e)
-            return (
-              <ContentLoader
-                key={i}
-                height={30}
-                speed={2}
-                primaryColor="#f3f3f3"
-                secondaryColor="#ecebeb"
-              >
-                <rect x="0" y="0" rx="3" ry="3" width="350" height="6.4" />
-                <rect x="0" y="10" rx="3" ry="3" width="380" height="6.4" />
-                <rect x="0" y="20" rx="3" ry="3" width="201" height="6.4" />
-              </ContentLoader>
-            )
-          })
+        return (
+          <ul>
+            {Array(10)
+              .fill('')
+              .map((e, i) => {
+                console.log(e)
+                return (
+                  <li
+                    key={i}
+                    style={{
+                      boxShadow:
+                        '0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12)',
+                      padding: '16px 24px',
+                      listStyle: 'none',
+                    }}
+                  >
+                    <ContentLoader
+                      height={7}
+                      speed={2}
+                      primaryColor="#f3f3f3"
+                      secondaryColor="#ecebeb"
+                    >
+                      <rect
+                        x="0"
+                        y="0"
+                        rx="3"
+                        ry="3"
+                        width="350"
+                        height="6.4"
+                      />
+                    </ContentLoader>
+                  </li>
+                )
+              })}
+          </ul>
+        )
       if (error) return <p>Error: ${error.message}</p>
       const { items } = data.urlSlugCollection
       return (
