@@ -4,6 +4,6 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import { wrapRootElementWithApollo } from './src/components/wrapRootElement'
+// import { wrapRootElementWithApollo } from './src/components/wrapRootElement'
 
-export const wrapRootElement = wrapRootElementWithApollo
+// export const wrapRootElement = wrapRootElementWithApollo
