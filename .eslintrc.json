@@ -1,6 +1,6 @@
 {
-  "extends": "gatsby-standard",
-  "plugins": ["react-hooks"],
+  "extends": ["gatsby-standard", "plugin:jsx-a11y/strict"],
+  "plugins": ["react-hooks", "jsx-a11y"],
   "rules": {
     "no-unused-vars": ["error", { "args": "all" }],
     "prefer-destructuring": ["error", { "array": false, "object": true }],
