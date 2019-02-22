@@ -4077,10 +4077,10 @@ eslint-plugin-promise@^4.0.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.0.1.tgz#2d074b653f35a23d1ba89d8e976a985117d1c6a2"
   integrity sha512-Si16O0+Hqz1gDHsys6RtFRrW7cCTB6P7p3OJmKp3Y3dxpQE2qwOA7d3xnV+0mBmrPoi0RBnxlCKvqu70te6wjg==
 
-eslint-plugin-react-hooks@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.0.2.tgz#89d9ab0690a45956696e652368a952fb09f7134d"
-  integrity sha512-pY1RSD3CGkGOV+e+rzjfs+JXKRum7VlJKPHznhU0GnFWfDm6zKLmOmg/lKcwNRH3LTSnF2PbfF8x3w90tyHlYw==
+eslint-plugin-react-hooks@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.1.0.tgz#a427050914990ed28da0981e636ce0755b6bfa3b"
+  integrity sha512-MOj7TqHu4kYEpgPs2VvfzcGYoONQ7KPVId0HIGwdyxSNCIZgplYjPJkMovrOmSSxPt1r9ASlnM83shn/YiCW9g==
 
 eslint-plugin-react@^7.11.1, eslint-plugin-react@^7.8.2:
   version "7.12.4"
@@ -5218,10 +5218,10 @@ gatsby-transformer-sharp@2.1.14:
     probe-image-size "^4.0.0"
     sharp "^0.21.3"
 
-gatsby@2.1.12:
-  version "2.1.12"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.12.tgz#73b38d638cd3fce4262132350f35d037397acb52"
-  integrity sha512-fS8W2jZmE7Bxhm1e5qeEBXhUAXKARSbUgJdbRssPdWre6DttGBqGCQAeDykWwI39sfLt/gvL6YaYkHNpQIkN+g==
+gatsby@2.1.14:
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.14.tgz#21ed67330c5580b26c2e102f5701b727bcdba409"
+  integrity sha512-MJS+HCpH1wC9kLHXT3UqCpC5/4bw/+mmGWZb5qsUPJjCa9lTmMepNMkL0rlZkMKaTmnovy1rKJ8+LiQ6tL3/og==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
