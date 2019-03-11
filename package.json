@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "babel-jest": "24.1.0",
-    "babel-preset-gatsby": "0.1.8",
+    "babel-preset-gatsby": "0.1.9",
     "eslint": "5.14.1",
     "eslint-config-gatsby-standard": "2.1.1",
     "eslint-plugin-jsx-a11y": "^6.2.1",
